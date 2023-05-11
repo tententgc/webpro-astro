@@ -1,0 +1,22 @@
+---
+import { Icon } from "astro-icon";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+---
+
+<Layout title="NewFeed">
+    <Container>
+        <Sectionhead>
+            <fragment slot="title">
+                <h1 class="text-4xl font-bold">NewsFeed</h1>
+            </fragment>
+            <fragment slot="desc">
+                <p class="text-xl">Feed for show collection</p>
+            </fragment>
+        </Sectionhead>
+        
+    
+    </Container>
+</Layout>
